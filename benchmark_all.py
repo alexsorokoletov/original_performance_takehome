@@ -150,6 +150,7 @@ def main():
         ("v1_loops", "perf_takehome_v1_loops"),
         ("v2_vectorized", "perf_takehome_v2_vectorized"),
         ("v3_vliw", "perf_takehome_v3_vliw"),
+        ("v4_pipelined", "perf_takehome_v4_pipelined"),
     ]
 
     for name, module_name in versions:
