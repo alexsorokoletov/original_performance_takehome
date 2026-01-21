@@ -148,6 +148,7 @@ def main():
     versions = [
         ("v0_baseline", "perf_takehome"),
         ("v1_loops", "perf_takehome_v1_loops"),
+        ("v2_vectorized", "perf_takehome_v2_vectorized"),
     ]
 
     for name, module_name in versions:
